@@ -1,0 +1,33 @@
+{
+    "name": "jose-chan/multiple-datetime",
+    "description": "laravel-admin extension for multiple datetime select",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "multiple", "datetime"],
+    "homepage": "https://github.com/jose-chan/multiple-datetime",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JoseChan",
+            "email": "524233828@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoseChan\\Admin\\Extensions\\MultipleDatetime\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoseChan\\Admin\\Extensions\\MultipleDatetime\\MultipleDatetimeServiceProvider"
+            ]
+        }
+    }
+}
