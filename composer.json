@@ -3,7 +3,7 @@
     "description": "laravel-admin extension for multiple datetime select",
     "type": "library",
     "keywords": ["laravel-admin", "extension", "multiple", "datetime"],
-    "homepage": "https://github.com/jose-chan/multiple-datetime",
+    "homepage": "https://github.com/ILoveJoseM/multiple-datetime",
     "license": "MIT",
     "authors": [
         {
