@@ -8,7 +8,7 @@
 
 ```
 
-composer require jose-chan/multiple-datetime
+composer require "jose-chan/multiple-datetime:v1.0.0"
 
 php artisan vendor:publish --tag=multiple-datetime
 
